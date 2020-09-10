@@ -15,7 +15,7 @@ const changeToCelcius = (kelvin) => {
     return celcius
 }
 
-updateWeatherApp = (city) => {
+const updateWeatherApp = (city) => {
     console.log(city)
     cityName.textContent = city.name;
     bodyCard.innerHTML =`
